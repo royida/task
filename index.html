@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo list</title>
+<!-- bootstrap -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <div class="container-fluid h-100  bg-dark ">
+<h1 class="text-center text-info my-3">welcome To our ToDo App</h1>
+  <div class="row justify-content-center">
+<div class="col-lg-6 col-md-6 col-sm-10  py-4">
+      <form>
+<div class="card text-left bg-secondary text-white fw-bold">
+  <div class="card-body">
+   <div class="form-group">
+     <label  class="from-label">Enter Your Task </label>
+     <input id="inputtask" type="text" name="" id="" class="form-control"  placeholder="Enter Your Task">
+<div class="text-center">
+         <button   id="addbutton" class="btn btn-success my-4 w-50">add new task</button>
+         
+    
+    </div>
+   </div>
+ </div>
+</div>
+
+
+
+      </form>
+</div>
+  </div>
+<h4 class="text-center text-info mt-3">You Have <span id=" count">0</span> Tasks</h4>
+<div class="row justify-content-center">
+<div class="col-lg-6 col-md-6 col-sm-10  py-4">
+  <form>
+      
+<div class="card text-left bg-secondary text-white fw-bold">
+<div class="card-body">
+ <div class="form-group">
+<!-- alert -->
+
+<div id="notasks" class="alert alert-danger  none" role="alert">
+  No Tasks Added Yet!
+  </div>
+
+    <div id="alltasks">
+
+
+
+    </div>
+  
+ </div>
+</div>
+</div>
+
+
+
+    </form>
+</div>
+      
+     </div>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- <script src="js/all.min.js"></script> -->
+ <!-- bootstrap -->
+<!-- <script src="js/popper.min.js" ></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.min.js"></script>
+<!-- my script -->
+    <script src="./js/javascript.js"></script>
+</body>
+</html>
